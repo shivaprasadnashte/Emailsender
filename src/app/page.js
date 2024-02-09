@@ -22,7 +22,7 @@ export default function Page() {
       <div className=" h-screen w-full flex flex-col justify-center item">
        { !thanks? <form>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-3xl font-bold mb-4">Email fetcher</h1>
+            <h1 className="text-3xl font-bold mb-4">Email Sender</h1>
             <div className=" flex flex-col gap-2">
               <label>Name</label>
               <input
